@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Brawl Stars — Pets</title>
+  <link rel="icon" type="image/png" href="https://o.remove.bg/downloads/841e204f-5da8-4ef5-934e-5b384623d34e/1200x630wa-removebg-preview.png"/>
+  <link rel="stylesheet" type="text/css" href="css-brawl-stars.css" />
+  <style>
+    /* Estilos para o botão */
+    .button-base {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button-base:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <audio id="somMouse" src="que-papelao-hein.mp3"></audio>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sobre o Brawl</a></li>
+      <li style="float:right"><a href="#">Gemas grátis!</a></li>
+    </ul>
+  </nav>
+
+  <div class="header-bar">
+    <h1><center><u><i><b class="vermelho">BRAWL STARS —</b><b class="preto"> BRAWLERS COM PETS</b></center></i></u></h1>
+    <center><h1 style="font-size: 17px;"><b class="preto"><i><u>Brawl Stars é repleto de brawlers com diversos tipos de funcionalidades, ataques e supers!<br>Hoje veremos várias coisas sobre os brawlers que possuem pets para ajudarem na partida.</u></i></b></h1></center>
+  </div>
+
+  <center><img src="brawl-stars.png" alt="Image" height="300" width="550"></center> 
+
+  <li>
+    <div class="box-nita">
+      <h1><center>🐻<br><u><i><b class="preto">NITA </b><b class="branco">&</b><b class="preto"> BRUCE</b></center></i></u></h1>
+      <div class="box-nita-texto">
+        <center><h1 style="font-size: 17px;"><b class="preto">Nita é uma criança feroz que carrega em seu colar o espírito de um mega urso chamado Bruce</b></h1></center>
+      </div>
+      <center><a href="nita.html" class="button-base" onmouseover="playSound()">Mais sobre a Nita</a></center>
+    </div>
+  </li>
+
+  <li>
+    <div class="box-jessie">
+      <h1><center>🔧<br><u><i><b class="preto">JESSIE </b><b class="branco">&</b><b class="preto"> SCRAPPY</b></center></i></u></h1>
+      <div class="box-jessie-texto">
+        <center><h1 style="font-size: 17px;"><b class="preto">Jessie é uma pré-adolescente muito inteligente que ama robótica e tem um pequeno amigo robô/lata velha chamado Scrappy</b></h1></center>
+      </div>
+      <center><a href="jessie.html" class="button-base" onmouseover="playSound()">Mais sobre a Jessie</a></center>
+    </div>
+  </li>
+
+
+  <div class="agrupamento">
+    <div class="ataques">
+      <img src="imagens/nita/Nita_Skin-Default.webp" alt="" width="200" height="240">
+      <h1 style="font-size: 17px;">ghfyt</h1>
+    </div>
+    <div class="ataques">
+      <img src="imagens/nita/Nita_Minion-Default.webp" alt="" width="320" height="240">
+      <h1 style="font-size: 17px;">ghfyt</h1>
+    </div>
+  </div>
+</div>
+
+  <script>
+    function playSound() {
+      const audio = document.getElementById('somMouse');
+      audio.play();
+    }
+  </script>
+</body>
+</html>

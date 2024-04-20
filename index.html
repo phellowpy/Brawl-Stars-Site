@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Brawl Stars — Pets</title>
+  <link rel="icon" type="image/png" href="imagens/icon_jungle.png"/>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="stylesheet" type="text/css" href="css-all.css" />
+  <script src="js-all.js" type="text/javascript" defer></script>
+    </head>
+      <body>
+        <!-- tag de áudio para o som ao passar o mouse -->
+          <audio id="somMouse" src="sons/botao-principal.mp3"></audio>
+        <!-- tag de áudio para o som ao clicar o mouse -->
+          <audio id="somClicar" src=""></audio>
+        <!-- tag de áudio para o som home -->
+          <audio id="somHome" src="sons/home.mp3"></audio>
+        <!-- tag de áudio para o som sobre o brawl -->
+          <audio id="somVoltar" src="sons/voltar.mp3"></audio>
+          <nav>
+
+              <div class="nav-bar">
+                <li><a href="index.html" onmouseover="playSoundHome('somHome')"><img src="imagens/imagens-nav-bar/home.png" alt="Logo" width="15" height="14"><b> Home</b></a></li>
+              <li><a onmouseover="playSoundVoltar('somVoltar')" onclick="NavBarVoltar()"><img src="imagens/imagens-nav-bar/image-removebg-preview (9).png" alt="Logo" width="15" height="14"><b> Voltar</b></a></li>
+              <li><a onmouseover="playSound('somMouse')" onclick="NavBarAvançar()"><img src="imagens/imagens-nav-bar/image-removebg-preview (8).png" alt="Logo" width="15" height="14"><b> Avançar</b></a></li>
+              <li><a href="sobre-o-brawl-stars.html" onmouseover="playSoundVoltar('somVoltar')"><img src="imagens/imagens-nav-bar/interrogaçao.png" alt="Logo" width="15" height="14"><b> Sobre o brawl</b></a></li>
+              <li style="float:right"><a href="https://www.youtube.com/watch?v=PayvWj2piKg&pp=ygUOaSBnaXZlIHVwIG1lbWU%3D" onmouseover="playSoundVoltar('somVoltar')"><img src="imagens/imagens-nav-bar/gemas.png" alt="Logo" width="15" height="14"><b> Gemas gratis!</b></a></li>
+              <!--  botao de volume-->
+              <li style="float:right"><button id="botaoMudo" onclick="alternarMudo()">
+                <img id="iconeMudo" src="imagens/imagens-nav-bar/som_ativo.png" alt="Som ativo" width="30" height="30">
+              </button></li>
+            </div>
+          </nav>
+          <!-- div brawl stars -->
+            <div class="header-bar">
+              <h1><u><i><center><b class="vermelho">BRAWL STARS —</b><b class="preto"> BRAWLERS COM PETS</b></center></i></u></h1>
+              <center><h1 style="font-size: 17px;"><b class="preto"><i><u>Brawl Stars e repleto de brawlers com varios tipos de funcionalidades, ataques e supers!<br>Hoje veremos varias coisas sobre os brawlers que possuem pets para ajudarem na partida.</u></i></b></h1></center>
+            </div>
+          <br>
+          <center><img src="imagens/brawl-stars.png"alt="Image" height="300" width="550"></center> 
+          <br>
+
+          <!-- div nita -->
+
+          <div class="espaço-coluna">
+            <li>
+              <div class="box-nita">
+                <h1><center>🐻<br><u><i><b class="preto">NITA </b><b class="branco"> &</b><b class="preto"> BRUCE</b></center></i></u></h1>
+                  <div class="box-nita-texto">
+                    <center><h1 style="font-size: 15px;"><b class="preto">Nita e uma criança ferroz que carrega em seu colar um espirito de um mega urso chamado Bruce</b></h1></center>
+                  </div>
+                    <center><a href="nita.html" button class="button-base button-nita" onmouseover="playSound('somMouse')"><i><u><b>Mais sobre a nita</b></u></i></a></center>
+              </div>
+            </li>
+
+          <!-- jessie -->
+
+            <li>
+              <div class="box-jessie">
+                <h1><center>🔧<br><u><i><b class="preto">JESSIE </b><b class="branco"> &</b><b class="preto"> SCRAPPY</b></center></i></u></h1>
+                  <div class="box-jessie-texto">
+                    <center><h1 style="font-size: 13px;"><b class="preto">Jessie e uma pre-adolescente muito inteligente que ama robotica e tem um pequeno amigo robo/lata velha chamado Scrappy</b></h1></center>
+                  </div>
+                <center><a href="jessie.html" button class="button-base button-jessie"><i><u><b>Mais sobre a jessie</b></u></i></button></a></center>
+              </div>
+            </li>
+
+          <!-- mr p -->
+
+            <li>
+              <div class="box-mr-p">
+                <h1><center>🐧<br><u style="font-size: 30px;"><i><b class="preto">MR. P</b><b class="branco"> &</b><b class="preto"> CIBER PORTEIROS</b></center></i></u></h1>
+                  <div class="box-mr-p-texto">
+                    <center><h1 style="font-size: 15px;"><b class="preto">O Mister P é um pinguim que "cuida" das bagagens dos clientes de um hotel e tem ciberporteiros para ajudá-lo.</b></h1></center>
+                  </div>
+                <center><a href="mr-p.html" button class="button-base button-mr-p"><i><u><b>Mais sobre a Mr.P</b></u></i></button></a></center>
+              </div>
+            </li>
+          </div>
+          
+      </body>
+</html>
+
+
+

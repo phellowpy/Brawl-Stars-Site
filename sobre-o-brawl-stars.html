@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Brawl Stars — Sobre O Brawl Stars</title>
+  <link rel="icon" type="image/png" href="imagens/icon_jungle.png"/>
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+  <link rel="stylesheet" type="text/css" href="css-all.css" />
+  <link rel="stylesheet" type="text/css" href="css-sobre-o-brawl-stars.css" />
+  <script src="js-all.js" type="text/javascript" defer></script>
+</head>
+<body>
+  <!-- tag de áudio para o som ao passar o mouse -->
+  <audio id="somMouse" src="sons/botao-principal.mp3"></audio>
+  <!-- tag de áudio para o som ao clicar o mouse -->
+    <audio id="somClicar" src=""></audio>
+  <!-- tag de áudio para o som home -->
+    <audio id="somHome" src="sons/home.mp3"></audio>
+  <!-- tag de áudio para o som sobre o brawl -->
+    <audio id="somVoltar" src="sons/voltar.mp3"></audio>
+    <nav>
+
+        <div class="nav-bar">
+          <li><a href="index.html" onmouseover="playSoundHome('somHome')"><img src="imagens/imagens-nav-bar/home.png" alt="Logo" width="15" height="14"><b> Home</b></a></li>
+        <li><a onmouseover="playSoundVoltar('somVoltar')" onclick="NavBarVoltar()"><img src="imagens/imagens-nav-bar/image-removebg-preview (9).png" alt="Logo" width="15" height="14"><b> Voltar</b></a></li>
+        <li><a onmouseover="playSound('somMouse')" onclick="NavBarAvançar()"><img src="imagens/imagens-nav-bar/image-removebg-preview (8).png" alt="Logo" width="15" height="14"><b> Avançar</b></a></li>
+        <li><a href="sobre-o-brawl-stars.html" onmouseover="playSoundVoltar('somVoltar')"><img src="imagens/imagens-nav-bar/interrogaçao.png" alt="Logo" width="15" height="14"><b> Sobre o brawl</b></a></li>
+        <li style="float:right"><a href="https://www.youtube.com/watch?v=PayvWj2piKg&pp=ygUOaSBnaXZlIHVwIG1lbWU%3D" onmouseover="playSoundVoltar('somVoltar')"><img src="imagens/imagens-nav-bar/gemas.png" alt="Logo" width="15" height="14"><b> Gemas gratis!</b></a></li>
+        <!--  botao de volume-->
+        <li style="float:right"><button id="botaoMudo" onclick="alternarMudo()">
+          <img id="iconeMudo" src="imagens/imagens-nav-bar/som_ativo.png" alt="Som ativo" width="30" height="30">
+        </button></li>
+      </div>
+    </nav>
+  <div class="sobre-bar">
+    <h1><u><i><center><b class="preto">Tudo Sobre O <b class="vermelho">Brawl Stars!</b></b></center></i></u></h1>
+      <center><div class="box-bar">
+          <center><h1 style="font-size: 20px;"><b class="preto">Bem vindo a pequena wiki sobre o brawl stars!</b></h1></center>
+          <center><div id="texto-colorido">
+              <p style="font-size: 21px;" class="rainbow rainbow_text_animated"><u><i><b>*musiquinha de background do brawl stars*</b></i></u></p>
+          </div></center>
+      </div></center>
+  </div>
+  <br>
+  <center><img src="sobre-o-brawl-stars/E-MVC9NXoAYJEbN.jpg" alt=""></center>
+  <br>
+  
+
+    <center><div class="oq-brawl">
+        <div class="titulo">
+          <p style="font-size: 50px;" class="rainbow rainbow_text_animated"><u><i><b>Jogos e Modos De Jogo:</b></i></u></p>
+        </div>
+
+
+      <div class="agrupamento">
+        <div class="info">
+          
+
+          <div class="info-titulo">
+            <p style="font-size: 20px;" class="rainbow rainbow_text_animated"><u><i><b>O que é o brawl stars?</b></i></u></p>
+          </div>
+          
+          <div class="info-texto">
+            
+            <center><p class="amarelo-vibrante"><b><i>Brawl stars é um jogo focado em 3vs3 em terceira pessoa possuindo atualmente 73 brawlers.</i></b></p></center>
+          </div>
+
+        </div>
+
+        <div class="info">
+          <div class="info-titulo">
+            <p style="font-size: 20px;" class="rainbow rainbow_text_animated"><u><i><b>O que São Modos de jogo?</b></i></u></p>
+          </div>
+          
+          <div class="info-texto">
+            
+            <center><p class="amarelo-vibrante"><b><i>Modos de jogos no brawl stars funcionam modificando as partidas para diferentes coisa como um 3vs3, partidas solo 1vs10, partidas em duplas e etc.</i></b></p></center>
+          </div>
+        </div>
+      </div>
+      <br>
+      <center><img src="imagens/oq-brawl/modos-de-jogo.png" alt=""></center>
+      </div>
+    </center>
+
+
+
+    <br>
+    <br>
+    <center><div class="oq-brawl">
+        <div class="titulo">
+          <p style="font-size: 50px;" class="rainbow rainbow_text_animated"><u><i><b>Brawlers</b></i></u></p>
+        </div>
+
+
+      <div class="agrupamento">
+        <div class="info">
+          
+
+          <div class="info-titulo">
+            <p style="font-size: 20px;" class="rainbow rainbow_text_animated"><u><i><b>O que são os Brawlers?</b></i></u></p>
+          </div>
+          
+          <div class="info-texto">
+            
+            <center><p class="amarelo-vibrante"><b><i>Brawlers São os personagens do Brawl Stars que você pode jogar com eles durante as partidas. É possivel comprar Skins personalizadas para eles na loja.</i></b></p></center>
+          </div>
+          
+          
+        </div>
+
+        <div class="info">
+          <div class="info-titulo">
+            <p style="font-size: 20px;" class="rainbow rainbow_text_animated"><u><i>Como conseguir Brawlers?<b></b></i></u></p>
+          </div>
+          
+          <div class="info-texto">
+            
+            <center><p style="font-size: 17px;" class="amarelo-vibrante"><b><i></i>Para conseguir Brawlers você pode comprar eles por gemas, com dinheiro, conseguir apos pegar alguma skin ou de graça na liga estelar com vales comuns e cromaticos.</b></p></center>
+          </div>
+        </div>
+      </div>
+      <br>
+      <center><img src="imagens/oq-brawl/maxresdefault.jpg" alt="" width="800" height="500"></center>
+      </div>
+    </center>
+
+</body>
+</html>

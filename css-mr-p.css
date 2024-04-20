@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(31, 31, 31);
+    color: rgb(201, 201, 201)
+  }
+
+  .mr-p-bar {
+    background-color: #1A1733;
+    padding: 10px;
+    color: #F6BD1F;
+    border: 2px solid #461EDF;
+  }
+
+  .mr-p-vermelho{
+    color: #A11A28;
+  }
+
+  .box-mr-p-bar {
+    font-size: 20px;
+    color: #ADD8F7;
+    height: 125px;
+    width: 600px;
+    border-radius: 10px;
+    background: #ADD8F7;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border: 2px solid #461EDF;
+    list-style-type: none;
+  }
+
+  .header-skins-mr-p {
+    background-color: rgb(31, 31, 31);
+    height: 100px;
+    width: 800px;
+    color: #0670d3;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #1a28ed;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  }

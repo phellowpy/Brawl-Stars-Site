@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Brawl Stars — Mr.P & Ciberporteiros</title>
+  <link rel="icon" type="image/png" href="imagens/icon_jungle.png"/>
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+  <link rel="stylesheet" type="text/css" href="css-all.css" />
+  <link rel="stylesheet" type="text/css" href="css-mr-p.css" />
+  <script src="js-all.js" type="text/javascript" defer></script>
+</head>
+<body>
+  <!-- tag de áudio para o som ao passar o mouse -->
+  <audio id="somMouse" src="sons/botao-principal.mp3"></audio>
+  <!-- tag de áudio para o som ao clicar o mouse -->
+    <audio id="somClicar" src=""></audio>
+  <!-- tag de áudio para o som home -->
+    <audio id="somHome" src="sons/home.mp3"></audio>
+  <!-- tag de áudio para o som sobre o brawl -->
+    <audio id="somVoltar" src="sons/voltar.mp3"></audio>
+    <nav>
+
+        <div class="nav-bar">
+          <li><a href="index.html" onmouseover="playSoundHome('somHome')"><img src="imagens/imagens-nav-bar/home.png" alt="Logo" width="15" height="14"><b> Home</b></a></li>
+        <li><a onmouseover="playSoundVoltar('somVoltar')" onclick="NavBarVoltar()"><img src="imagens/imagens-nav-bar/image-removebg-preview (9).png" alt="Logo" width="15" height="14"><b> Voltar</b></a></li>
+        <li><a onmouseover="playSound('somMouse')" onclick="NavBarAvançar()"><img src="imagens/imagens-nav-bar/image-removebg-preview (8).png" alt="Logo" width="15" height="14"><b> Avançar</b></a></li>
+        <li><a href="sobre-o-brawl-stars.html" onmouseover="playSoundVoltar('somVoltar')"><img src="imagens/imagens-nav-bar/interrogaçao.png" alt="Logo" width="15" height="14"><b> Sobre o brawl</b></a></li>
+        <li style="float:right"><a href="https://www.youtube.com/watch?v=PayvWj2piKg&pp=ygUOaSBnaXZlIHVwIG1lbWU%3D" onmouseover="playSoundVoltar('somVoltar')"><img src="imagens/imagens-nav-bar/gemas.png" alt="Logo" width="15" height="14"><b> Gemas gratis!</b></a></li>
+        <!--  botao de volume-->
+        <li style="float:right"><button id="botaoMudo" onclick="alternarMudo()">
+          <img id="iconeMudo" src="imagens/imagens-nav-bar/som_ativo.png" alt="Som ativo" width="30" height="30">
+        </button></li>
+      </div>
+    </nav>
+  <div class="mr-p-bar">
+    <h1><u><i><center><b class="mr-p-vermelho">MR.P</b><b class="branco"> &</b><b class="mr-p-vermelho"> CIBER PODERTEIROS</b></center></i></u></h1>
+      <center><div class="box-mr-p-bar">
+        <center><h1 style="font-size: 20px;"><b class="preto">Bem vindo a pequena wiki sobre o rabugento<u><i><br>Mr.P e seus ciber porteiros</i></u><br><h1 style="font-size: 25px;"><b class="mr-p-vermelho">HIHEW, PIW, >:c!!!</b></h1></h1></center>
+      </div></center>
+  </div>
+  <br>
+  <center><img src="brawlers/mr-p/mr-p/x4b5nhl7krb41.png" width="1000" height="900"></center>
+
+  <br>
+  <center><div class="header-ataque">
+    <center><h1 style="font-size: 50px;"><b><i><u>Ataques</u></i></b></h1></center>
+  </div></center>
+  <br>
+  <br>
+
+
+  <!-- TODO: infos de ataques de mr.p e ciberporteiros-->
+  <!-- TODO: ataques de mr.p -->
+
+
+<div class="agrupamento">
+  <div class="ataques">
+    <br>
+      <img src="brawlers/mr-p/mr-p/Mr._P_Skin-Default.webp" alt="" width="200" height="250">
+        <div class="info-ataques">
+
+          <center>
+            <div class="info-ataques-titulo">
+              <center><p><b class="branco">Mala Extraviada</b></p></center>
+            </div>
+          </center>
+
+            <center>
+              <div class="info-ataques-texto">
+                <center><p style="font-size: 18px;">O ataque principal é uma <i><u> mala azul brilhante</u></i> que, uma vez atingido alguém ou alguma coisa, pula rapidamente, cai novamente e explode! Isso causa dano em área, então você pode lançá-lo de muito longe e se sair bem contra grupos.</p>
+                </center>
+              </div>
+            </center>
+            
+            <br>
+          </div>
+          <br>
+          <center><video controls>
+            <source src="brawlers/mr-p/videos/ataque-mr-p.mp4" type="video/mp4">
+            </video></center>
+            <br>
+  </div> 
+
+  
+  
+  <!-- TODO: ataques de ciberporteiros -->
+    <div class="ataques">
+      <br>
+      <img src="brawlers/mr-p/mr-p/Mr._P_Minion-Default.webp" alt="" width="250" height="250">
+        <div class="info-ataques">
+
+          <center>
+            <div class="info-ataques-titulo">
+              <center>
+                <p><b class="branco">Ciberporteiros! Ataquem!</b></p>
+              </center>
+            </div>
+          </center>
+
+            <center>
+              <div class="info-ataques-texto">
+                <center>
+                  <p>Quando seu Super é usado, a mr.p joga uma<i><u>base de ciberporteiros</u></i> que saem automaticamente de dentro da base, apenas pode sair um e apos morto respwna outro. Ele reprogramou os pequenos robôs com cabeça de pinguim para atacar oponentes <u><i>(e convidados indisciplinados).</i></u></p>
+                </center>
+              </div>
+            </center>
+
+      </div>
+
+      <br>
+        <center>
+          <video controls>
+            <source src="brawlers/mr-p/videos/ataque-ciberporteiros.mp4" type="video/mp4">
+          </video>
+          <br>
+        </center>
+      <br>
+
+    </div>
+    <br>
+  </div>
+  <br>
+</div>
+
+<!-- TODO: acessorio -->
+<br>
+  <center><div class="header-acessorio">
+    <center><h1 style="font-size: 50px;"><b class="nita-green-escuro"><i><u>Acessorios</u></i></b></h1></center>
+  </div></center>
+  <br>
+<div class="agrupamento">
+  <div class="acessorio">
+    <br>
+      <img src="brawlers/mr-p/itens/GD-Mr.P1.webp" alt="" width="150" height="150">
+      <br>
+        <div class="info-acessorio">
+          <div class="info-acessorio-titulo">
+            <center><p><b class="branco">Campainha</b></p></center>
+          </div>
+            <div class="info-acessorio-texto">
+              <center><p>Os ciberporteiros do <i><u>Mister P</u></i> causam 150 pontos de dano a mais e recebem 1.000 pontos de saúde extras.</p></center>
+            </div>
+            <br>
+          </div>
+          <br>
+          <center><video controls>
+            <source src="brawlers/mr-p/videos/acessorio-campainha.mp4" type="video/mp4">
+            </video></center>
+            <br>
+            
+          </div> 
+          <br>
+    <div class="acessorio">
+      <br>
+      <img src="brawlers/mr-p/itens/GD-Mr.P2.webp" alt="" width="150" height="150">
+      <br>
+        <div class="info-acessorio">
+          <div class="info-acessorio-titulo">
+            <center><p><b class="branco">Ajuda Extra</b></p></center>
+          </div>
+            <div class="info-acessorio-texto">
+              <center><p>O próximo ataque gera um <i><u> ciberporteiro</u></i> extra no local atingido.</p></center>
+            </div>
+      </div>
+      <br>
+      <center><video controls>
+        <source src="brawlers/mr-p/videos/acessorio-ajuda-extra.mp4" type="video/mp4">
+        </video></center>
+        <br>
+      </div>  
+  </div>
+</div>
+
+<!-- TDODO: poder de estrela -->
+
+<br>
+  <center><div class="header-poder-estrela">
+    <center><h1 style="font-size: 50px;"><b><i><u>Poderes De Estrela</u></i></b></h1></center>
+  </div></center>
+  <br>
+<div class="agrupamento">
+  <div class="poder-estrela">
+    <br>
+      <img src="brawlers/mr-p/itens/SP-Mr.P1.webp" alt="" width="150" height="150">
+      <br>
+        <div class="info-poder-estrela">
+          <div class="info-poder-estrela-titulo">
+            <center><p><b class="branco">Excesso de Bagagem</b></p></center>
+          </div>
+            <div class="info-poder-estrela-texto">
+              <center><p>A cada 4 segundos, o dano de <i><u> explosão da próxima mala</u></i> do Mister P aumenta em 40%.</p></center>
+            </div>
+      </div>
+      <br>
+      <center><video controls>
+        <source src="brawlers/mr-p/videos/poder-de-estrela-excesso-de-bagagem.mp4" type="video/mp4">
+        </video><br></center>
+        <br>
+  </div> 
+    <div class="poder-estrela">
+      <br>
+      <img src="brawlers/mr-p/itens/SP-Mr.P2.webp" alt="" width="150" height="150">
+      <br>
+        <div class="info-poder-estrela">
+          <div class="info-poder-estrela-titulo">
+            <center><p><b class="branco">Porta Giratória</b></p></center>
+          </div>
+            <div class="info-poder-estrela-texto">
+              <center><p>Todos os <i><u> ciberporteiros</u></i> da base passam a ter 20% mais pontos de saúde e causam 30% mais dano.</p></center>
+            </div>
+          </div>
+          <br>
+          <center><video controls>
+            <source src="brawlers/mr-p/videos/ataque-mr-p.mp4" type="video/mp4">
+            </video></center>
+            <br>
+  </div>
+</div>
+
+<!-- TODO: engrenagens -->
+
+<br>
+  <center><div class="header-gear">
+    <center><h1 style="font-size: 50px;"><b><i><u>Engrenagens Extras</u></i></b></h1></center>
+  </div></center>
+  <br>
+<div class="agrupamento">
+  <div class="gear-epica">
+      <img src="imagens/all/PetPowerGear.webp" alt="" width="150" height="150">
+        <div class="info-gear-epica">
+          <div class="info-gear-epica-titulo">
+            <center><p><b class="branco">Poder Do Companheiro</b></p></center>
+          </div>
+            <div class="info-gear-epica-texto">
+              <center><p><i><u>Pets</u></i> com esta engrenagem terão o dano e a cura de seus spawnables aumentados em 25%. <br></p></center>
+            </div>
+      </div>
+  </div> 
+    <div class="gear-mitica">
+      <img src="imagens/all/image-removebg-preview (8).png" alt="" width="200" height="175">
+        <div class="info-gear-mitica">
+          <div class="info-gear-mitica-titulo">
+            <center><p><b class="branco">Em Breve...</b></p></center>
+          </div>
+            <div class="info-gear-mitica-texto">
+              <center><p>Essa<i><u> engrenagem</u></i> atualmente ainda não foi lançada, a uma teoria que ela vai influenciar algo no ciberporteiro.</p></center>
+            </div>
+      </div>
+  </div>
+</div>
+
+<!-- TODO: maestria -->
+
+<br>
+  <center><div class="header-maestria">
+    <center><h1 style="font-size: 50px;"><b><i><u>Maestria Do Mr.P</u></i></b></h1></center>
+  </div></center>
+  <br>
+
+<div class="agrupamento">
+  <div class="maestria">
+        <div class="info-maestria">
+          <div class="info-maestria-titulo">
+            <center><p><b class="branco">Pin</b></p></center>
+          </div>
+          <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Facepalm.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div> 
+    <div class="maestria">
+      <div class="info-maestria">
+        <div class="info-maestria-titulo">
+          <center><p><b class="branco">Foto De Perfil</b></p></center>
+        </div>
+        <center><img src="brawlers/mr-p/cosmeticos/Mr._P2-pfp.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+    <div class="maestria">
+      <div class="info-maestria">
+        <div class="info-maestria-titulo">
+          <center><p><b class="branco">Titulo</b></p></center>
+        </div>
+        <br>
+        <center><div class="texto-maestria">
+          <center><p><b class="branco">"Chefia"</b></p></center>
+        </div></center>
+
+      </div>
+  </div>
+</div>
+<br>
+
+<!-- TODO: cosmeticos-->
+
+<br>
+  <center><div class="header-cosmeticos">
+    <center><h1 style="font-size: 50px;"><b><i><u>Cosmeticos</u></i></b></h1></center>
+  </div></center>
+  <br>
+  <center><div class="header-cosmeticos-2">
+    <center><h1 style="font-size: 25px;"><b><i><u>Fotos De Perfil</u></i></b></h1></center>
+  </div></center>
+  <br>
+<div class="agrupamento">
+  <div class="cosmeticos">
+        <div class="info-cosmeticos">
+          <div class="info-cosmeticos-titulo">
+            <center><p><b class="branco">Foto Padrão Do Mr.P</b></p></center>
+          </div>
+          <center><img src="brawlers/mr-p/cosmeticos/Mr._P1-pfp.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div> 
+    <div class="cosmeticos">
+      <div class="info-cosmeticos">
+        <div class="info-cosmeticos-titulo">
+          <center><p><b class="branco">Foto Do Dominio Do Mr.P</b></p></center>
+        </div>
+        <center><img src="brawlers/mr-p/cosmeticos/Mr._P2-pfp.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+</div>
+<br>
+
+<!-- TODO: spray -->
+
+  <center><div class="header-cosmeticos-2">
+    <center><h1 style="font-size: 25px;"><b><i><u>Sprays</u></i></b></h1></center>
+  </div></center>
+  <br>
+<div class="agrupamento">
+  <div class="cosmeticos">
+        <div class="info-cosmeticos">
+          <div class="info-cosmeticos-titulo">
+            <center><p><b class="branco">Spray Do Mr.P Padrão</b></p></center>
+          </div>
+          <center><img src="brawlers/mr-p/cosmeticos/Mr._P-Spray.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div> 
+    <div class="cosmeticos">
+      <div class="info-cosmeticos">
+        <div class="info-cosmeticos-titulo">
+          <center><p><b class="branco">Spray Da Skin Mr.Daruma</b></p></center>
+        </div>
+        <center><img src="brawlers/mr-p/cosmeticos/Daruma_Mr._P-Spray.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- TODO: pins -->
+
+<br>
+  <center><div class="header-cosmeticos">
+    <center><h1 style="font-size: 50px;"><b><i><u>Pins</u></i></b></h1></center>
+  </div></center>
+  <br>
+  <center><div class="header-cosmeticos-2">
+    <center><h1 style="font-size: 25px;"><b><i><u>Pins Padrão</u></i></b></h1></center>
+  </div></center>
+  <br>
+<div class="agrupamento">
+  <div class="pins-comum">
+        <div class="info-pins-comum">
+          <div class="info-pins-comum-titulo">
+            <center><p><b class="branco">Mr.P Neutro</b></p></center>
+          </div>
+          <br>
+          <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Neutral.webp" alt="" width="150" height="150"></center>
+          <br>
+      </div>
+  </div> 
+    <div class="pins-comum">
+      <div class="info-pins-comum">
+        <div class="info-pins-comum-titulo">
+          <center><p><b class="branco">Mr.P Feliz</b></p></center>
+        </div>
+        <br>
+        <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Happy.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+    <div class="pins-comum">
+      <div class="info-pins-comum">
+        <div class="info-pins-comum-titulo">
+          <center><p><b class="branco">Mr.P Triste</b></p></center>
+        </div>
+        <br>
+        <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Sad.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+  <div class="pins-comum">
+      <div class="info-pins-comum">
+        <div class="info-pins-comum-titulo">
+          <center><p><b class="branco">Mr.P Brava</b></p></center>
+        </div>
+        <br>
+        <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Angry.webp" alt="" width="175" height="150"></center>
+      </div>
+  </div>
+  <div class="pins-raro">
+    <div class="info-pins-raro">
+      <div class="info-pins-raro-titulo">
+        <center><p><b class="branco">Mr.P GG</b></p></center>
+      </div>
+      <br>
+      <center><img src="brawlers/mr-p/pins/Mr._P_Pin-GG.webp" alt="" width="175" height="150"></center>
+    </div>
+</div>
+</div>
+
+<br>
+
+<!-- info pins 2.0 -->
+
+<div class="agrupamento">
+  <div class="pins-raro">
+        <div class="info-pins-raro">
+          <div class="info-pins-raro-titulo">
+            <center><p><b class="branco">Mr.P Parabens</b></p></center>
+          </div>
+          <br>
+          <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Clap.webp" alt="" width="175" height="150"></center>
+          <br>
+      </div>
+  </div> 
+    <div class="pins-epico">
+      <div class="info-pins-epico">
+        <div class="info-pins-epico-titulo">
+          <center><p><b class="branco">Mr.P Obrigado</b></p></center>
+        </div>
+        <br>
+        <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Thanks.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+    <div class="pins-epico">
+      <div class="info-pins-epico">
+        <div class="info-pins-epico-titulo">
+          <center><p><b class="branco">Mr.P Ufa</b></p></center>
+        </div>
+        <br>
+        <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Phew.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+  <div class="pins-epico">
+      <div class="info-pins-epico">
+        <div class="info-pins-epico-titulo">
+          <center><p><b class="branco">Mr.P Especial</b></p></center>
+        </div>
+        <br>
+        <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Special.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+  <div class="pins-exclusivo">
+    <div class="info-pins-exclusivo">
+      <div class="info-pins-exclusivo-titulo">
+        <center><p><b class="branco">Pin Do Dominio</b></p></center>
+      </div>
+      <br>
+      <center><img src="brawlers/mr-p/pins/Mr._P_Pin-Facepalm.webp" alt="" width="150" height="150"></center>
+    </div>
+</div>
+</div>
+
+<br>
+
+<!-- info pins 3.0 -->
+
+<br>
+<center><div class="header-cosmeticos-2">
+  <center><h1 style="font-size: 25px;"><b><i><u>Pins Exclusivos/ De Skins</u></i></b></h1></center>
+</div></center>
+<br>
+<br>
+<div class="agrupamento">
+  <div class="pins-exclusivo">
+        <div class="info-pins-exclusivo">
+          <div class="info-pins-exclusivo-titulo">
+            <center><p><b class="branco">Pin Skin Mr.P Dracula</b></p></center>
+          </div>
+          <br>
+          <center><img src="brawlers/mr-p/pins/skins/Mr._P_Count_Pengula_Pin-Neutral.webp" alt="" width="150" height="150"></center>
+          <br>
+      </div>
+  </div> 
+    <div class="pins-exclusivo">
+      <div class="info-pins-exclusivo">
+        <div class="info-pins-exclusivo-titulo">
+          <center><p><b class="branco">Pin Skin Mr.P Mosca</b></p></center>
+        </div>
+        <br>
+        <center><img src="brawlers/mr-p/pins/skins/Mr._P_Mr._Fly_Pin-Neutral.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+    <div class="pins-exclusivo">
+      <div class="info-pins-exclusivo">
+        <div class="info-pins-exclusivo-titulo">
+          <center><p><b class="branco">Pin Skin Mr.P Daruma</b></p></center>
+        </div>
+        <br>
+        <center><img src="brawlers/mr-p/pins/skins/Mr._P_Daruma_Pin-Neutral.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+  <div class="pins-exclusivo">
+      <div class="info-pins-exclusivo">
+        <div class="info-pins-exclusivo-titulo">
+          <center><p><b class="branco">Pin Skin Mr.P Daruma</b></p></center>
+        </div>
+        <br>
+        <center><img src="brawlers/mr-p/pins/skins/Mr._P_Daruma_Pin-Special.webp" alt="" width="150" height="150"></center>
+      </div>
+  </div>
+</div>
+
+
+<br>
+<center><div class="header-skins-mr-p">
+  <h1 style="font-size: 50px;"><b><i><u>Skins Do Mr.P E Ciberporteiros</u></i></b></h1>
+</div></center>
+<br>
+
+<!-- TODO: slide -->
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="raridade"></div>
+    <img src="brawlers/mr-p/skins/mr-p-principal.jpg" style="width:100%">
+    <div class="text">Mr.P Padrão</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="raridade"><img src="imagens/all/raridade-skins/Catalogue-Rare.webp" alt="" width="75" height="75"></div>
+    <img src="brawlers/mr-p/skins/mr-p-trabalho.jpg" style="width:100%">
+    <div class="text">Agente P</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="raridade"><img src="imagens/all/raridade-skins/Catalogue-Super_Rare.webp" alt="" width="75" height="75"><img src="imagens/all/tema-skins/Campaign_Icon-Brawl-o-ween (1).webp" alt="" width="75" height="75"></div>
+    <img src="brawlers/mr-p/skins/mr-p-dracula.jpg"style="width:100%">
+    <div class="text">Conde P</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="raridade"><img src="imagens/all/raridade-skins/Catalogue-Super_Rare.webp" alt="" width="75" height="75"><img src="imagens/all/tema-skins/Campaign_Icon-Biodome.webp" alt="" width="75" height="75"></div>
+    <img src="brawlers/mr-p/skins/mr-p-mosca.jpg"style="width:100%">
+    <div class="text-black">Mr. Mosca</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="raridade"><img src="imagens/all/raridade-skins/Catalogue-Super_Rare.webp" alt="" width="75" height="75"><img src="imagens/all/tema-skins/Campaign_Icon-Golden_Kawaii.webp" alt="" width="75" height="75"></div>
+    <img src="brawlers/mr-p/skins/mr-p-daruma.jpg"style="width:100%">
+    <div class="text">Mr. Daruma</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="raridade"><img src="imagens/all/raridade-skins/Campaign_Icon-True_Silver.webp" alt="" width="75" height="75"></div>
+    <img src="brawlers/mr-p/skins/mr-p-prateado.jpg"style="width:100%">
+    <div class="text">Mr.P Prateado</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="raridade"><img src="imagens/all/raridade-skins/Campaign_Icon-True_Gold.webp" alt="" width="75" height="75"></div>
+    <img src="brawlers/mr-p/skins/mr-p-dourado.jpg"style="width:100%">
+    <div class="text">Mr.P Dourado</div>
+  </div>
+
+
+  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+
+</body>
+</html>
+
+
+
+
+
